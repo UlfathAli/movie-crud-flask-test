@@ -4,7 +4,7 @@ pipeline {
 		stage ("Git checkout"){
 			steps {
 				git branch: "master",
-					url: "git@github.com:UlfathAli/test-my-project.git"
+					url: "git@github.com:UlfathAli/movie-crud-flask-test.git"
 				sh "ls"
 			}
 		}
